@@ -22,7 +22,7 @@
 
 -- Block names start here
 
-BLOCKS = {}
+blocks = {}
 
 blocks[1] = {"Air"}
 blocks[2] = {"Stone"}
