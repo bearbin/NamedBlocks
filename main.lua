@@ -54,14 +54,14 @@ function GetBlockName(id, meta)
 			local temp2 = BLOCKS[id+1][1]
 
 			if temp2 == nil then
-				return "Unrecognized Block"
+				return "Unrecognized Block", 2
 			else
-				return temp2
+				return temp2, 1
 			end
 
 	else
 
-		return tempName
+		return tempName, 0
 
 	end
 
