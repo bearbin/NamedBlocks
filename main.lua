@@ -31,11 +31,13 @@ function Initialize( Plugin )
 	PLUGIN = Plugin
 
 	Plugin:SetName("NamedBlocks")
-	Plugin:SetVersion(0)
+	Plugin:SetVersion(1)
 
 	LOGPREFIX = "["..Plugin:GetName().."] "
 
 	LOG(LOGPREFIX.."Plugin enabled.")
+
+	return true
 
 end
 
